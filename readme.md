@@ -1,4 +1,4 @@
-# ShwurbelTranskript v0.1
+# SchwurbelTranskript v0.1
 Programm zur automatischen Transkription von Sprachnachrichten aus Telegramm Gruppen oder anderen .ogg Dateien.
 
 # Installation

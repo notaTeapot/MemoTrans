@@ -4,18 +4,18 @@ Programm zur automatischen Transkription von Sprachnachrichten aus Telegramm Gru
 # Installation
  - SchwurbelTranskript v0.1.exe herunterladen (https://github.com/notaTeapot/SchwurbelTranskipt/releases/tag/v0.1)
  - ffmpeg Herunterladen und installieren (https://soundartifacts.com/how-to/186-how-to-install-ffmpeg-on-windows-10-amp-add-ffmpeg-to-windows-path.html)
- - wnn ffmpeg richtig installiert wurde erscheint beim öffnen der .exe kein Fehler in der Kommandozeile
+ - wenn ffmpeg richtig installiert wurde erscheint beim öffnen der .exe kein Fehler in der Kommandozeile
 
 # Nutzung
  - SchwurbelTranskript v0.1.exe starten
  - Ordner auswählen in dem sich die .ogg Dateien befinden
  - überprüfen dass ".ogg Dateien konvertieren und aufteilen" angewählt ist
  - "Dateien Suchen" klicken
- - wenn passende dateien gefunden wurden "Start" klicken
+ - wenn passende Dateien gefunden wurden "Start" klicken
  - Transkription durchlaufen lassen (kann je nach Dateianzahl auch mehrere Stunden dauern!)
- - text.txt enthält den Transkribierten Text mit einer zuordnung zur jeweiligen Audiodatei (Achtung! Datei ist standardmäßig im ANSI Format und muss ggf. für die weiterverarbeitung in UTF-8 konvertierrt werden.)
+ - text.txt enthält den transkribierten Text mit einer Zuordnung zur jeweiligen Audiodatei (Achtung! Datei ist standardmäßig im ANSI Format und muss ggf. für die weiterverarbeitung in UTF-8 konvertiert werden.)
 
 # Funktion
-Das Programm liest eine .ogg Datei ein, konvertiert sie in eine Kompatible .wav Datei und teilt sie ggf. in 5-Minuten Segmente. Danach werden die Segmente einer Datei an die Google Speech Api weitergegeben, die diese Transkribiert. Der Text wird einem Textdokument hinzugefügt. Das Vorgehen wird für alle Dateien wiederholt.
+Das Programm liest eine .ogg Datei ein, konvertiert sie in eine kompatible .wav Datei und teilt sie ggf. in 5-Minuten Segmente. Danach werden die Segmente einer Datei an die Google Speech Api weitergegeben, die diese transkribiert. Der Text wird einem Textdokument hinzugefügt. Das Vorgehen wird für alle Dateien wiederholt.
 
 

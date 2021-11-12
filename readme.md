@@ -2,7 +2,7 @@
 Programm zur automatischen Transkription von Sprachnachrichten aus Telegramm Gruppen oder anderen .ogg Dateien.
 
 # Installation
- - SchwurbelTranskript v0.1.exe herunterladen
+ - SchwurbelTranskript v0.1.exe herunterladen (https://github.com/notaTeapot/SchwurbelTranskipt/releases/tag/v0.1)
  - ffmpeg Herunterladen und installieren (https://soundartifacts.com/how-to/186-how-to-install-ffmpeg-on-windows-10-amp-add-ffmpeg-to-windows-path.html)
  - wnn ffmpeg richtig installiert wurde erscheint beim öffnen der .exe kein Fehler in der Kommandozeile
 

@@ -1,13 +1,13 @@
-# SchwurbelTranskript v0.1
+# MemoTrans v0.1
 Programm zur automatischen Transkription von Sprachnachrichten aus Telegramm Gruppen oder anderen .ogg Dateien.
 
 # Installation
- - SchwurbelTranskript v0.1.exe herunterladen (https://github.com/notaTeapot/SchwurbelTranskipt/releases/tag/v0.1)
+ - SchwurbelTranskript v0.1.exe herunterladen (https://github.com/notaTeapot/MemoTrans/releases/tag/v0.1)
  - ffmpeg Herunterladen und installieren (https://soundartifacts.com/how-to/186-how-to-install-ffmpeg-on-windows-10-amp-add-ffmpeg-to-windows-path.html)
  - wenn ffmpeg richtig installiert wurde erscheint beim öffnen der .exe kein Fehler in der Kommandozeile
 
 # Nutzung
- - SchwurbelTranskript v0.1.exe starten
+ - MemoTrans v0.1.exe starten
  - Ordner auswählen in dem sich die .ogg Dateien befinden
  - überprüfen dass ".ogg Dateien konvertieren und aufteilen" angewählt ist
  - "Dateien Suchen" klicken

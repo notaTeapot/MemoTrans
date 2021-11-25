@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'c:\Users\Vasco\Documents\Python\SchwurbelTranskipt\ui\main.ui'
+# Form implementation generated from reading ui file 'c:\Users\Vasco\Documents\Python\MemoTrans\ui\main.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
 #
@@ -64,7 +64,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "SchwurbelTranskript v0.1"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "MemoTrans v0.1"))
         self.groupBox.setTitle(_translate("MainWindow", "Orderauswahl"))
         self.folder_btn.setText(_translate("MainWindow", "Ordner auswählen"))
         self.convert_check.setText(_translate("MainWindow", ".ogg dateien konvertieren und aufteilen"))

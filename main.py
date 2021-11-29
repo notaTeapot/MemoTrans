@@ -1,5 +1,5 @@
 """
-Schwurbel Transkript 
+MemoTrans
 Vasco Berl, Veronika Sahlbach
 Audiodateien aus Telegrammgruppen automatisch transkribieren und zuordnen
 """

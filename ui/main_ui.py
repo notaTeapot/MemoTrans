@@ -48,6 +48,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(8)
         self.status_label.setFont(font)
+        self.status_label.setText("")
         self.status_label.setObjectName("status_label")
         self.verticalLayout.addWidget(self.status_label)
         self.progressBar = QtWidgets.QProgressBar(self.centralwidget)
@@ -70,4 +71,3 @@ class Ui_MainWindow(object):
         self.convert_check.setText(_translate("MainWindow", ".ogg dateien konvertieren und aufteilen"))
         self.init_btn.setText(_translate("MainWindow", "Dateien suchen"))
         self.start_btn.setText(_translate("MainWindow", "Starten!"))
-        self.status_label.setText(_translate("MainWindow", "TextLabel"))

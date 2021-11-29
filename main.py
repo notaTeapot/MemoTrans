@@ -5,6 +5,7 @@ Audiodateien aus Telegrammgruppen automatisch transkribieren und zuordnen
 """
 import sys
 import os
+import io
 from pydub import AudioSegment
 import math
 import threading
@@ -73,12 +74,12 @@ class MainWindow(qtw.QMainWindow,Ui_MainWindow):
             else:
                 parts.append(file)
                 
-            with open(self.folder + "/text.txt","a") as txt_file:
+            with io.open(self.folder + "/text.txt","a",encoding='utf8') as txt_file:
                 for part in parts:
                     try:
                         self.setStatus("Transkribiere (" + str(i)+"/"+str(len(self.filenames))+") " + part)
                         text = self.toText(self.folder + '/' + part)
-                        txt_file.write(part + " # " + text + '\n')
+                        txt_file.write(part.replace(".wav","") + " # " + text + '\n')
                     except Exception as e:
                         print(e)
 

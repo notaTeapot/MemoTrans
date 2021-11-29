@@ -2,7 +2,7 @@
 Programm zur automatischen Transkription von Sprachnachrichten aus Telegramm Gruppen oder anderen .ogg Dateien.
 
 # Installation
- - MemoTrans v0.X.exe herunterladen (https://github.com/notaTeapot/MemoTrans/releases/)
+ - MemoTrans v0.X.exe herunterladen (https://github.com/notaTeapot/MemoTrans/releases/latest)
  - ffmpeg Herunterladen und installieren (https://soundartifacts.com/how-to/186-how-to-install-ffmpeg-on-windows-10-amp-add-ffmpeg-to-windows-path.html)
  - wenn ffmpeg richtig installiert wurde erscheint beim öffnen der .exe kein Fehler in der Kommandozeile
 

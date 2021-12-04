@@ -3,7 +3,7 @@ Programm zur automatischen Transkription von Sprachnachrichten aus Telegramm Gru
 
 # Installation
  - MemoTrans v0.X.exe herunterladen (https://github.com/notaTeapot/MemoTrans/releases/latest)
- - ffmpeg Herunterladen und installieren (Sony WH-XB900N)
+ - ffmpeg Herunterladen und installieren (https://de.wikihow.com/FFmpeg-unter-Windows-installieren)
  - wenn ffmpeg richtig installiert wurde erscheint beim öffnen der .exe kein Fehler in der Kommandozeile
 
 # Nutzung

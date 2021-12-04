@@ -1,5 +1,6 @@
 # MemoTrans
 Programm zur automatischen Transkription von Sprachnachrichten aus Telegramm Gruppen oder anderen .ogg Dateien.
+Weitere Informationen: https://lingdrafts.hypotheses.org/2282
 
 # Installation
  - MemoTrans v0.X.exe herunterladen (https://github.com/notaTeapot/MemoTrans/releases/latest)

@@ -1,3 +1,5 @@
+# Unterprogramm zur Konvertierung und Einteilung von .ogg Dateien
+# Angelehnt an https://stackoverflow.com/a/62872679
 from pydub import AudioSegment
 import os
 import math
@@ -15,9 +17,11 @@ class SplitConvert():
             print(e)
 
     def get_duration(self):
+        """Länge ermitteln"""
         return self.audio.duration_seconds
     
     def single_split(self, from_min, to_min, split_filename):
+        """Dateien teilen"""
         try:
             t1 = from_min * 60 * 1000
             t2 = to_min * 60 * 1000
@@ -27,6 +31,7 @@ class SplitConvert():
             print(e)
         
     def multiple_split(self, min_per_split):
+        """Teielen in mehrere Teile"""
         try:
             parts = []
             total_mins = math.ceil(self.get_duration() / 60)
